@@ -1,0 +1,16 @@
+$blue:#3190e8;
+$white:#ffffff;
+$padding:.5rem;
+@mixin sc($size,$color) {
+    font-size:$size;
+    color:$color;
+}
+@mixin wh($width,$height) {
+    width: $width;
+    height: $height;
+}
+@mixin testeps{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
